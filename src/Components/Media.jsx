@@ -170,7 +170,7 @@ width: 90vw;
     grid-gap: 20px;
 }
 .item{
-    border: 1px solid #f4f4f4;
+    border: 1px solid #cacaca;
     position: relative;
     overflow: hidden;
     border-radius: 5px;
@@ -215,7 +215,7 @@ img{
 }
 
 .upload-image{
-    border: 1px dashed #f4f4f4;
+    border: 1px dashed #cacaca;
     cursor: pointer;
     span{
       font-size: 60px;  
