@@ -215,7 +215,7 @@ img{
 }
 
 .upload-image{
-    border: 1px solid #f4f4f4;
+    border: 1px dashed #f4f4f4;
     cursor: pointer;
     span{
       font-size: 60px;  
