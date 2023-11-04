@@ -224,6 +224,17 @@ img{
     
 }
 
+@media (max-width:450px) {
+
+        width: 100vw;
+        margin: 20px;
+    
+    padding:0;
+    .grid-container{
+ grid-template-columns:50% 50%;
+    }
+   
+}
 
 `
 export default Media
