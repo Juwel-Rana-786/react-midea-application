@@ -107,5 +107,16 @@ img{
     
 }
 
+@media (max-width:450px) {
+
+        width: 100vw;
+        margin: 20px;
+    
+    padding:0;
+    .grid-container{
+ grid-template-columns:50% 50%;
+    }
+   
+}
 
 `;function Am(){return Y.jsx(Y.Fragment,{children:Y.jsx(Mm,{})})}Qo.createRoot(document.getElementById("root")).render(Y.jsx(Pe.StrictMode,{children:Y.jsx(Am,{})}));
