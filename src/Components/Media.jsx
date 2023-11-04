@@ -119,15 +119,15 @@ const Media = () => {
             <div className="header d-flex justify-content-between pe-5 py-3 fw-bold ">
                 <div>
 
-                    {(isChecked.length > 0) && <input type="checkbox"
+                    <input type="checkbox"
                         value="allSelect"
                         checked={(isChecked.length > 0) && "true"}
 
 
-                        id="" />}
+                        id="" />
 
-                    {(isChecked.length > 0) && <span> {isChecked.length} Files Selected</span>}
-
+                    {/* {(isChecked.length > 0) && <span> {isChecked.length} Files Selected</span>} */}
+                    <span> {isChecked.length} Files Selected</span>
                 </div>
                 <button className="delete btn fw-bold p-0 text-danger" onClick={Delete}>Delete Files</button>
             </div>
